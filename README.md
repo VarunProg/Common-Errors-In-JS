@@ -32,3 +32,19 @@ why? because we are trying to access the the value of a outiside of the scope.\
  let a=10;\
  output:\
  **Uncaught ReferenceError: Cannot access 'a' before initialization**
+ \
+ # Syntax Error
+ if we use incorrect syntax of the predefined syntax we get syntax error.\
+ suppose we forget to put curly braces after function declaration\
+ 
+function a() \
+console.log(" function a") \
+}\
+a();\
+output:\
+**Uncaught SyntaxError: Unexpected identifier**\
+\
+**second use case**\
+if we try to re-decalared the variable with let variable\
+let a=10;\
+let a=100;
