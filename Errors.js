@@ -12,3 +12,10 @@ console.log(output);
 // let and const declaration reference error
 console.log(a);
 let a = 10;
+
+
+//syntax error
+function a()
+console.log(" function a")
+}
+a();
