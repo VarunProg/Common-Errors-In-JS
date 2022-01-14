@@ -30,3 +30,5 @@ why? because we are trying to access the the value of a outiside of the scope.\
  Example:\
  consoloe.log(a);\
  let a=10;\
+ output:\
+ **Uncaught ReferenceError: Cannot access 'a' before initialization**
