@@ -24,3 +24,9 @@ Ouput:\
 Again we get the same error that a is not defiend Reference error\
 why? because we are trying to access the the value of a outiside of the scope.\
 **Uncaught ReferenceError: a is not defined**
+
+ **third use case**\
+ in the case of let and const declaration if try to access them before initialization.\
+ Example:\
+ consoloe.log(a);\
+ let a=10;\
