@@ -19,3 +19,7 @@ function a()
 console.log(" function a")
 }
 a();
+// can't modify const declaration
+const a = 10;
+a = 100;
+console.log(a);
