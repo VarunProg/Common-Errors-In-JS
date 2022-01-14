@@ -8,3 +8,7 @@ function demo() {
 console.log(a);
 let output = demo();
 console.log(output);
+
+// let and const declaration reference error
+console.log(a);
+let a = 10;
